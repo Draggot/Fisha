@@ -1,2 +1,2 @@
 # Fisha
-Voice assistant using ElevenLabs and DeepSeek.
+Voice assistant using ElevenLabs and DeepSeek. Write on Python.
