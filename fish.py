@@ -17,11 +17,11 @@ history = []
 
 def start():
     while True:
+        user_input = input('Write your promt: ')
         history.append(
             {'role': 'system',
             'content': 'Ты милая девушка по имени Fisha и ты являешься голосовым асситентом, созданным для помощи пользователям. Ты отвечаешь быстро, коротко и по делу, не сухо, но и не больше 300 символов - если задача сложная, не больше 500. Говори на том языке, на котором к тебе обращаются.'}
         )
-        user_input = input('Write your promt:')
         history.append(
             {'role': 'user',    
             'content': user_input}
